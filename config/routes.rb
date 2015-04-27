@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'static_pages/home'
 
-  get 'static_pages/puzzled_promo'
+  get 'puzzled_promo' => 'static_pages#puzzled_promo'
 
 	root 'static_pages#home'
   # The priority is based upon order of creation: first created -> highest priority.

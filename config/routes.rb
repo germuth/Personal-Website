@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'user/create'
+
   get 'static_pages/home'
 
   get 'puzzled_promo' => 'static_pages#puzzled_promo'

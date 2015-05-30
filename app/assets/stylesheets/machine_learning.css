@@ -1,0 +1,37 @@
+p {
+	color: black;
+	font-size: 180%;
+}
+
+ul {
+	margin-bottom: 10px;
+}
+
+ul li {
+	margin-left: 30px
+}
+
+.robot {
+	float: left;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.home {
+	display: flex;
+	justify-content: center;
+}
+
+.home-inside {
+	justify-content: center;
+	width: 80%;
+}
+
+.details {
+	float: right;
+}
+
+.image_container {
+	float: left;
+}

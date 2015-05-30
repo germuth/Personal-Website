@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+
   get 'user/create'
 
   get 'static_pages/home'
 
   get 'puzzled_promo' => 'static_pages#puzzled_promo'
+
+  get 'machine_learning' => 'static_pages#machine_learning'
 
 	root 'static_pages#home'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def puzzled_promo
   end
+
+	def machine_learning
+	end
 end

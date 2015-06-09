@@ -1,4 +1,13 @@
 /* CSS Stolen from garren.net for homepage */
+#footer {
+	padding-top: 10px;
+	text-align: center;
+	color: #FF9D53;
+}
+
+#footer-tag {
+}
+
 link {
   word-spacing: -0.2em;
   text-decoration: none;
@@ -38,7 +47,9 @@ body.normal #content-inner {
 
 html, body {
   height: 100%;
-  background: #0C5093;
+  //background: #0C5093;
+  //background: #19FF30;
+  background: #FF7914;
 }
 
 body {
@@ -84,7 +95,8 @@ body {
 */
 #header a {
   border-radius: 8px;
-  color: #90B8DF;
+  //color: #90B8DF;
+  color: #FF9D53;
   text-decoration: none;
 
   transition: all 150ms;
@@ -121,7 +133,9 @@ body {
 }
 
 #content-inner {
-  background: #90B8DF;
+  //background: #90B8DF;.
+  //background: #66FF75;
+  background: #FF9D53;
   /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);*/
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   padding: 30px;
@@ -173,7 +187,8 @@ hr {
   letter-spacing: 0;
   text-transform: uppercase;
   margin: 10px 0 20px;
-  color: #0C5093;
+  //color: #0C5093;
+  color: #FF7914;
 }
 
 .home .links {
